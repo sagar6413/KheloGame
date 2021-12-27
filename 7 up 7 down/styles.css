@@ -50,13 +50,13 @@ p {
 img {
   width: 420px;
 }
-.butn {
+.buttons {
   display: flex;
   /* flex-direction: row; */
   align-items: center;
   justify-content: center;
 }
-#play {
+.play {
   margin: 0 10px;
   padding: 0 15px;
   border-radius: 10px;
@@ -65,4 +65,11 @@ img {
   font-family: "Baloo Bhai 2", cursive;
   font-size: 2rem;
   font-weight: bold;
+}
+#play {
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
 }

@@ -121,3 +121,9 @@ footer ul li a {
   font-size: 0.8em;
 }
 /* end: footer styles */
+
+@media screen and (max-width: 950px) {
+  #hero-image {
+    width: 0;
+  }
+}
