@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(46, 37, 37, 1) 34%,
+    rgba(125, 125, 125, 1) 100%
+  );
+}
+.flex {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  justify-content: space-between;
+}
+
+#hero-image {
+  background: url("bg.jpg") top center no-repeat;
+  height: 820px;
+  width: auto;
+}
+
+.hero-marketing-text {
+  max-width: 1200px;
+  margin: -30px auto 0;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right: 0;
+  padding: 0 20px;
+}
+
+.hero-marketing-text h1 {
+  color: #eee;
+  font-size: 3.5em;
+  font-weight: 300;
+  margin: 0.5em 0;
+}
+
+.hero-marketing-text span {
+  color: #ffb320;
+}
+
+.hero-marketing-text h5 {
+  color: #eee;
+  font-size: 0.85em;
+  font-weight: 300;
+  max-width: 500px;
+  line-height: 2;
+  margin-bottom: 2.5em;
+}
+
+.hero-marketing-text button {
+  background-color: #ffb320;
+  color: #131313;
+  border-radius: 25px;
+  padding: 15px 25px;
+  font-size: 0.85em;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+img {
+  height: 350px;
+}
+.text-title {
+  font-size: 5em;
+  background-color: #ffb320;
+  margin-bottom: 0.5em;
+  margin-top: 2px;
+}
+.text {
+  color: black;
+  text-decoration: underline;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+.card-body {
+  background-color: #ffb320;
+}
+/* start: footer styles */
+footer {
+  background-color: #252525;
+  padding: 25px 0 20px;
+}
+
+footer small {
+  color: #ddd;
+  font-size: 0.9em;
+}
+
+footer small .footer-heart {
+  font-size: 16px;
+}
+
+footer small a {
+  color: #007bdc;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+footer ul li {
+  display: inline-block;
+  margin: 0 12px;
+}
+
+footer ul li a {
+  color: #ddd;
+  font-size: 0.8em;
+}
+/* end: footer styles */
