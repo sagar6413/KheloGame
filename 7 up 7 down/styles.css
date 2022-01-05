@@ -23,7 +23,9 @@ body {
   /* flex-direction: row; */
   align-items: center;
   justify-content: center;
+  justify-content: space-around;
   height: 100%;
+  font-size: 16px;
 }
 .wrapper {
   display: flex;
@@ -41,14 +43,17 @@ h1 {
   color: rgb(208, 214, 218);
 }
 .dice-area {
-  margin: 0px 50px;
+  margin: 0px 50px 20px 0;
 }
 p {
   font-size: 2.5rem;
   color: rgb(208, 214, 218);
+  margin: 0 4em;
 }
 img {
-  width: 420px;
+  width: 25em;
+  height: 25em;
+  /* transition: width 1s ease-in-out; */
 }
 .buttons {
   display: flex;
@@ -72,4 +77,12 @@ img {
   align-items: center;
   justify-content: center;
   margin-top: 10px;
+}
+@media screen and (max-width: 1050px) {
+  .container {
+    flex-direction: column;
+  }
+  .buttons {
+    padding: 10px 0 0 0;
+  }
 }
